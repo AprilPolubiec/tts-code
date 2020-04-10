@@ -31,7 +31,6 @@ var RBsWithMoreThanFive = RBs.filter(function(player) {
 })
 
 console.log(RBsWithMoreThanFive)
-// console.log(RBs)
 
 var numRBTouchdowns = RBs.reduce(function(sum, current){
   return sum + current.touchdowns
