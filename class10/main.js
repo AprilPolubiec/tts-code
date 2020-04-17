@@ -97,7 +97,7 @@ $(document).ready(function () {
   button7.on('click', function () {
     results.text('')
     $.ajax({
-      method: 'PUT',
+      method: 'PATCH',
       url: 'http://jsonplaceholder.typicode.com/posts/12',
       data: { title: 'New Title' },
       complete: function (response) {

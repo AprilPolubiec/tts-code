@@ -1,0 +1,15 @@
+{
+  "name": "exercise1",
+  "version": "1.0.0",
+  "description": "First npm project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "April",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
